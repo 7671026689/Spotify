@@ -1,0 +1,146 @@
+#play-list{
+   /* border: 2px solid; */
+   height: 600px; 
+}
+#sub-play{
+    /* border: 2px solid red;    */
+    width: 65%;
+    height: inherit;
+    margin: auto;
+}
+#sub-play h2{
+    /* border: 2px solid; */
+    display: grid;
+    place-items: center;
+    /* margin-top: 20px; */
+    padding-top: 10%;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+#sub-play ul{
+    /* border: 2px solid; */
+    list-style: none;
+    padding: 0%;
+    display: flex;
+    /* height: 300px; */
+    /* width: 85%; */
+    
+}
+#sub-play ul li{
+    flex: 1;
+    margin-top: 60px;
+}
+.demo{
+    /* border: 2px solid yellow; */
+    height: 400px;
+    flex: 1;
+
+}
+.demo img{
+    padding-left: 30px;
+}
+.demo p{
+    font-size: 21px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+.demo p+p{
+    line-height: 1.5;
+    font-size: 14px;
+}
+#sub-section{
+    /* border: 2px solid; */
+    height: 450px;
+    width: 100%;
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+    text-align: center;
+    padding-top: 11%;
+
+}
+#sub-section p{
+    font-size: 32px;
+    font-weight: 900;
+    color: #fff;
+}
+#questions{
+    /* border: 2px solid; */
+    height: 500px;
+    width: 100%;
+    text-align: center;
+}
+#questions h1{
+    font-size: 35px;
+    font-weight: 900;
+    padding-top: 50px;
+}
+#sub-q{
+    height: 400px;
+    width: 75%;
+    /* border: 2px solid; */
+    margin: auto;
+    text-align: start;
+    padding: 50px;
+}
+.details1 ol>li>span{
+    color: rgb(32, 149, 32);
+}
+.details1 summary{
+    font-size: 24px;
+    font-weight: bolder;
+}
+.details1 p>span{
+    color: rgb(32, 149, 32);   
+}
+.details1 summary:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#sub-section1{
+    /* border: 2px solid; */
+    height: 500px;
+    width: 100%;
+    background: url(https://www.scdn.co/i/free/lets-play.svg) center center / 100% no-repeat, linear-gradient(-155deg, rgb(108, 14, 224) 55%, rgb(240, 55, 166) 115%) rgb(108, 14, 224);
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+#sub-section1 h2{
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    padding: 112px 15px 32px;
+
+}
+#sub-section1 a{
+    /* border: 2px solid; */
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: #fff;
+    text-align: center;
+    margin-left: 43%;
+    text-decoration: none;
+}
+#sub-section1 a span{
+    display: flex;
+    padding-top: 15px;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    align-content: center;
+    color: black;
+    font-weight: 700;
+    /* text-decoration: none; */
+}
+#sub-section1 a span:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+    
+
